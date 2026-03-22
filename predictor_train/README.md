@@ -106,11 +106,7 @@ Output details:
 - `last_model.pt`: the checkpoint saved at the end of the final epoch. This is the final training state, even if its validation accuracy is not the best one.
 - `metrics.json`: training metadata and per-epoch results, including `train_loss`, `val_loss`, `val_accuracy`, and the main training arguments.
 
-Why there are two model files:
 
-The original notebook usually saved only one manually chosen checkpoint at the
-end of training. This released script saves both the best-validation checkpoint
-and the final checkpoint so that reproduction is cleaner:
 
 - use `best_model.pt` when you want the best validation model
 - use `last_model.pt` when you want the exact final epoch model
