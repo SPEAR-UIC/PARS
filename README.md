@@ -1,6 +1,8 @@
 # PARS
 
-This repository releases the code for the PARS workflow described in our paper.
+This repository releases the code for the PARS workflow described in the paper. If you use PARS in your work, please cite the following paper:
+
+Yiheng Tao, Yihe Zhang, Matthew Dearing, Xin Wang, Yuping Fan, Michael Papka, Zhiling Lan, “Ranking Before Serving: Low-Latency LLM Serving via Pairwise Learning-to-Rank”, Proc. of ISC High Performance 2026.
 
 PARS is a prompt-aware scheduling approach designed to approximate
 shortest-job-first style decisions for LLM serving. The goal is to reduce
